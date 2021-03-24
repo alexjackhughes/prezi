@@ -38,8 +38,8 @@ interface Props {
 
 const Title: React.FC<Props> = ({ isFancy, children }) => (
   <h1
-    className={`text-6xl md:text-8xl font-bold text-left w-full select-none text-gray-100  ${
-      isFancy && "skittles py-1"
+    className={`text-7xl lg:text-8xl font-bold text-left w-full select-none text-gray-100 py-2 ${
+      isFancy && "skittles"
     }`}
   >
     {children}
