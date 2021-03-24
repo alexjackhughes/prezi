@@ -12,6 +12,26 @@ export const slides: Slide[] = [
     primary: "I want to go over",
     secondary: "three ideas",
   },
+  {
+    primary: "But first",
+    secondary: "a bit about me",
+  },
+  {
+    primary: "Don't try everything",
+    secondary: "focus",
+  },
+  {
+    primary: "Go where",
+    secondary: "the money is",
+  },
+  {
+    primary: "Underpromise",
+    secondary: "Overdeliver",
+  },
+  {
+    primary: "Idea four",
+    secondary: "remember to play",
+  },
 ];
 
 export const finalSlide: Slide = {
