@@ -5,8 +5,8 @@ export interface Slide {
 
 export const slides: Slide[] = [
   {
-    primary: "Why startups aren't hiring",
-    secondary: "people like you",
+    primary: "Why founders",
+    secondary: "aren't hiring you",
   },
   {
     primary: "What the second slide",

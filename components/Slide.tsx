@@ -8,8 +8,6 @@ export default function Slide() {
   const [counter, setCounter] = useState<number>(0);
   const { primary, secondary } = slides[counter] || finalSlide;
 
-  console.log(counter);
-
   const previousSlide = () => {
     if (counter > 0) {
       setCounter(counter - 1);
@@ -40,7 +38,7 @@ interface Props {
 
 const Title: React.FC<Props> = ({ isFancy, children }) => (
   <h1
-    className={`text-6xl md:text-7xl font-bold text-left w-full select-none text-gray-100  ${
+    className={`text-6xl md:text-8xl font-bold text-left w-full select-none text-gray-100  ${
       isFancy && "skittles py-1"
     }`}
   >
