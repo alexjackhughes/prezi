@@ -3,6 +3,8 @@ import Slide from "../components/Slide";
 
 export default function Home() {
   const url = "https://startups-hire-you.vercel.app";
+  const description =
+    "Why startups aren't hiring you and what you can do about it - by @alexjackhughes";
 
   return (
     <div
@@ -18,11 +20,8 @@ export default function Home() {
         <title>Why startups aren't hiring you</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Why startups aren't hiring you" />
-        <meta name="description" content="Why startups aren't hiring you" />
-        <meta
-          property="og:description"
-          content="Why startups aren't hiring you"
-        />
+        <meta name="description" content={description} />
+        <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${url}`} />
         <meta property="og:image" content={`${url}/screenshot.png`} />
@@ -30,7 +29,7 @@ export default function Home() {
           property="twitter:image:alt"
           content="screenshot of the Loopin website"
         />
-        <meta property="twitter:site" content="letsloopin" />
+        <meta property="twitter:site" content="alexjackhughes" />
       </Head>
       <Slide />
     </div>

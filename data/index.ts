@@ -9,12 +9,12 @@ export const slides: Slide[] = [
     secondary: "aren't hiring you",
   },
   {
-    primary: "What the second slide",
-    secondary: "says",
+    primary: "I want to go over",
+    secondary: "three ideas",
   },
 ];
 
 export const finalSlide: Slide = {
-  primary: "Thanks for listening",
-  secondary: "🙏",
+  primary: "Follow me on twitter",
+  secondary: "@alexjackhughes",
 };
