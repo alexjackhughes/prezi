@@ -4,7 +4,7 @@ interface Props {
 
 const PreviousIcon: React.FC<Props> = ({ onClick }) => (
   <div
-    className="h-screen flex flex-col justify-center hover:bg-gray-700 text-gray-900 opacity-50 px-4 md:px-2 rounded cursor-pointer"
+    className="h-screen flex opacity-0 hover:opacity-20 flex-col justify-center hover:bg-gray-600 text-gray-900 px-4 md:px-2 rounded cursor-pointer"
     onClick={onClick}
   >
     <svg
