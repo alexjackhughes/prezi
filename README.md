@@ -1,6 +1,6 @@
 # Prezi
 
-A presentation template for use in talks to add a bit of pizazz.
+A presentation template for use in talks to add a bit of ✨ pizzazz ✨.
 
 ## Getting Started
 
@@ -16,6 +16,12 @@ The **React App** will be running on:
 ## Deployment
 
 _Deploys automatically to Vercel - you can see it [here](https://startups-hire-you.vercel.app/)._
+
+## Technologies
+
+- **React** - _For building the interface_ [LINK](https://reactjs.org/)
+- **Next** - _React framework to deploy quickly_ [LINK](https://nextjs.org/)
+- **TailwindCSS** - _Utility-first CSS framework_ [LINK](https://tailwindcss.com/)
 
 ## Author
 
