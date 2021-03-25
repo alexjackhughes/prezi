@@ -4,7 +4,7 @@ interface Props {
 
 const PreviousIcon: React.FC<Props> = ({ onClick }) => (
   <div
-    className="h-screen flex opacity-0 hover:opacity-20 flex-col justify-center hover:bg-gray-600 text-gray-900 px-4 md:px-2 rounded cursor-pointer"
+    className="h-screen flex opacity-0 hover:opacity-20 flex-col justify-center hover:bg-gray-600 text-gray-900 px-2 rounded cursor-pointer"
     onClick={onClick}
   >
     <svg
@@ -12,7 +12,7 @@ const PreviousIcon: React.FC<Props> = ({ onClick }) => (
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
-      className="cursor-pointer h-10 w-10 md:h-14 md:w-14"
+      className="cursor-pointer h-8 w-8 md:h-14 md:w-14"
     >
       <path
         strokeLinecap="round"

@@ -21,20 +21,20 @@ export const slides: Slide[] = [
     secondary: "focus",
   },
   {
-    primary: "Go where",
-    secondary: "the money is",
+    primary: "Opportunity",
+    secondary: "not money",
   },
   {
     primary: "Underpromise",
     secondary: "Overdeliver",
   },
   {
-    primary: "Idea four",
+    primary: "4th Idea",
     secondary: "remember to play",
   },
 ];
 
 export const finalSlide: Slide = {
-  primary: "Follow me on twitter",
+  primary: "Follow me on",
   secondary: "@alexjackhughes",
 };
